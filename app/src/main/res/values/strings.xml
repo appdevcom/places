@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Places</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="url">http://192.168.2.112/ws/ws.php/places/</string>
+</resources>
