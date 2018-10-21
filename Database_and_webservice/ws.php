@@ -34,6 +34,7 @@
 					print_r ($list);
 					print "</pre>";*/  // descomentar e comentar a linha com json_encode para testar o get
 					
+					header("Access-Control-Allow-Origin: *");  // allow cross origin
 					header('Content-Type: application/json');
 					print json_encode($list, JSON_UNESCAPED_UNICODE);
 					
